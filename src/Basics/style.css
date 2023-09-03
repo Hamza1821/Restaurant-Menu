@@ -1,0 +1,77 @@
+.card-number{
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 50%;
+   width: 25px;
+   text-align: center;
+}
+.card-author {color: grey;
+
+}
+.card-read{
+    border: 1px solid gray;
+    display: block;
+    width: 20%;
+    margin: 5px;
+    text-align: center;
+}
+.btn-group{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-image{
+    
+    width: 80%;
+    height:140px;
+}
+.card{
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        height: 550px;
+        /* flex-wrap: wrap; */
+        margin: 10px;
+        
+}
+.card-order{
+    border: 1px solid gray;
+    display: block;
+    width: 30%;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid gray;
+    position: relative;
+    left: 40%;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 400px;
+   
+    
+}
+.btn-group__item{
+    background: transparent;
+    border: none;
+    margin: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .2s ease-in;
+}
+.btn-group__item:hover,.btn-group__item:active{
+    box-shadow: 0 5px  blueviolet;
+    font-weight: 600;
+
+}
